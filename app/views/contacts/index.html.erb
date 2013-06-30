@@ -1,29 +1,30 @@
-<h1>Listing contacts</h1>
+      <div class="hero-unit">
+        <h2 style="color:#84D7FF;"><strong>Welcome to Update Accountants Limited</strong></h2>
+        <p class="lead" style="color:#84D7FF;"><strong>Are you getting the correct advice, especially when you need it?</strong></p>
+        <p  style="color:#84D7FF;"><strong>In a competitive world, getting the correct advice when you need it is often the difference between success and failure. JK.Shah are a leading accountancy practice offering a comprehensive range of services. Our aims are simple:</strong>
+          </p>
+      </div>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Message</th>
-    <th>Email</th>
-    <th>Phone</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @contacts.each do |contact| %>
-  <tr>
-    <td><%= contact.name %></td>
-    <td><%= contact.message %></td>
-    <td><%= contact.email %></td>
-    <td><%= contact.phone %></td>
-    <td><%= link_to 'Show', contact %></td>
-    <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-    <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Contact', new_contact_path %>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <p style="color:#41C0FF;"><strong>To provide our clients with the best business and financial services possible, giving positive and profitable solutions.</strong></p>
+        </div>
+        <div class="span4">
+          <p style="color:#41C0FF;"><strong>To obtain a thorough understanding of your business and providing ways to make it successful for you.</strong></p>
+       </div>
+      <div class="span4">
+          <p style="color:#41C0FF;"><strong>Minimal time spent on record-keeping.</strong></p>
+       </div>
+      </div>
+    <div class="row">
+        <div class="span4">
+          <p style="color:#41C0FF;"><strong>Fees agreed in advance and paid for by monthly standing order.</strong></p>
+        </div>
+        <div class="span4">
+          <p style="color:#41C0FF;"><strong>Advance knowledge of all tax liabilities.</strong></p>
+       </div>
+      <div class="span4">
+          <p style="color:#41C0FF;"><strong>Management accounts prepared quarterly, this is included in our fee.</strong></p>
+       </div>
+      </div>

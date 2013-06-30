@@ -1,7 +1,10 @@
 AccountProfile::Application.routes.draw do
 
   root :to => "contacts#index"
-  resources :contacts
+  get '/home', to: 'contacts#index'
+   get '/about_us', to: 'contacts#about_us'
+   get '/contact_us', to: 'contacts#contact_us'
+
 
 
   # The priority is based upon order of creation:
