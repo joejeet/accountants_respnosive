@@ -9,10 +9,8 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-f7b986c236cc86bbb74f9ce530d55034.js
 application/index.js: application-f7b986c236cc86bbb74f9ce530d55034.js
-application.css: application-b714d7da996f562621c228551b61162a.css
-application/index.css: application-b714d7da996f562621c228551b61162a.css
-frontier.mp4: frontier-548dd33c9db69d3ef98b128abfccc487.mp4
-frontier/index.mp4: frontier-548dd33c9db69d3ef98b128abfccc487.mp4
+application.css: application-23d65b5cf867dc848e4275c3b72b8f05.css
+application/index.css: application-23d65b5cf867dc848e4275c3b72b8f05.css
 jquery.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 jquery/index.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
